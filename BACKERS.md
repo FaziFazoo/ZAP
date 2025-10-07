@@ -1,27 +1,22 @@
-# Our backers & Sponsors
+# Our Backers & Sponsors
 
-Since Feb 2019, the Stellarium team accept donations through our [Open Collective page](https://opencollective.com/stellarium).
-The money will be used transparently to pay for development, servers and other project-related costs.
+ZAP is based on the original Stellarium project. We thank all previous Stellarium supporters for their contributions.
 
-The Stellarium team gives a huge thanks to all individual one-time supporters, regular backers and our sponsors:
+Currently, ZAP does not have an official donation or sponsorship program. If you are interested in supporting ZAP, please contact the maintainers.
 
 ## Bronze Sponsors:
 
-### Previously 
- - Raul Monraz
- - n8n GmbH
- - TripleByte
+*No sponsors yet!*
 
 ## Silver Sponsors:
 
-### Current
-[![BairesDev](https://www.stellarium.org/img/logos/BairesDev.png)](https://www.bairesdev.com/sponsoring-open-source-projects/)
+*No sponsors yet!*
 
-### Previously also
-[![dotcom-monitor](https://www.stellarium.org/img/logos/DCM-Logo-54.png)](https://www.dotcom-monitor.com/sponsoring-open-source-projects/)
-[![SSSTwitter](https://stellarium.org/img/logos/SSSTwitter.png)](https://opencollective.com/ssstwitter)
+## Gold Sponsors:
 
-## Gold sponsors:
+*No sponsors yet!*
 
-None yet!
+---
+
+*Special thanks to all past Stellarium sponsors and backers for supporting the development and growth of the original project.*
 

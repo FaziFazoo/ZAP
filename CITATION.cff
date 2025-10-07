@@ -2,12 +2,17 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Stellarium
+title: ZAP
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
 type: software
 authors:
+  - given-names: Mohamed Fazil
+    family-names: Mohamed Farook
+    affiliation: Just me
+    # Add your ORCID here if available, e.g. orcid: 'https://orcid.org/xxxx-xxxx-xxxx-xxxx'
+  # Original Stellarium authors for attribution
   - given-names: Fabien
     family-names: Chéreau
     affiliation: Stellarium Labs
@@ -17,15 +22,11 @@ authors:
     orcid: 'https://orcid.org/0000-0002-2047-089X'
   - family-names: Zotti
     given-names: Georg
-    affiliation: >-
-      Ludwig Boltzmann Institute for Archaeological
-      Prospection and Virtual Archaeology
+    affiliation: Ludwig Boltzmann Institute for Archaeological Prospection and Virtual Archaeology
     orcid: 'https://orcid.org/0000-0002-8152-0408'
   - given-names: Susanne
     family-names: Hoffmann
-    affiliation: >-
-      Friedrich Schiller University - Michael Stifel Center
-      Jena
+    affiliation: Friedrich Schiller University - Michael Stifel Center Jena
     orcid: 'https://orcid.org/0000-0001-5384-7545'
   - given-names: Ruslan
     family-names: Kabatsayev
@@ -39,21 +40,15 @@ authors:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.8377210
-repository-code: 'https://github.com/Stellarium/stellarium'
-url: 'https://stellarium.org/'
-repository-artifact: >-
-  https://github.com/Stellarium/stellarium/releases/tag/v25.2
 abstract: >-
-  Stellarium is a free open source planetarium for your
-  computer. It shows a realistic sky in 3D, just like what
-  you see with the naked eye, binoculars or a telescope.
+  ZAP is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope.
+  ZAP is based on the original Stellarium project. Special thanks and credit to the Stellarium developers and contributors for their foundational work, resources, and inspiration.
 keywords:
-  - stellarium
+  - zap
   - astronomy
   - planetarium
   - universe
   - sky
 license: GPL-2.0-or-later
-commit: 43ada02db1e2c0a1fba4c254fba54c4bbfa71ac6
 version: '25.2'
 date-released: '2025-06-22'

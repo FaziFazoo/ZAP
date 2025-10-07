@@ -1,13 +1,13 @@
 ## Using external libraries
 
-Stellarium uses [CPM](https://github.com/cpm-cmake/CPM.cmake) to automatically
+ZAP uses CPM to automatically
 download several dependencies during build process, if they are missing from
 the target system. Follow that page for more details, but here's summary.
 
 ### Developer point of view
 
 If you want to use an external library, use
-[`find_package()`](https://cmake.org/cmake/help/latest/command/find_package.html).
+`find_package()`.
 If you want to provide a fallback of downloading it when they are missing, use
 `CPMFindPackage()`. If `find_package()` is impossible to use because the
 library doesn't provide `<Foo>Config.cmake` and there is no `Find<Foo>.cmake`,
@@ -34,15 +34,15 @@ anything.
 ## Compression of newly added images
 
 PNG images can frequently be more efficiently compressed by using a tool designed
-for the purpose, such as [pngcrush](https://pmt.sourceforge.io/pngcrush/),
-[oxipng](https://github.com/shssoichiro/oxipng), or
-[ect](https://github.com/fhanau/Efficient-Compression-Tool).
+for the purpose, such as pngcrush,
+oxipng, or
+ect.
 
-When adding new images to the Stellarium project, contributors should make sure
+When adding new images to the ZAP project, contributors should make sure
 that added PNGs (and exported images from SVG sources) are compressed as much
 as is reasonably achievable.
 
-Benchmarks [suggest](https://css-ig.net/benchmark/png-lossless) that `ect` is the
+Benchmarks suggest that `ect` is the
 most efficient recompression tool for full color images, particularly larger ones,
 so that is what we recommend.
 
@@ -63,3 +63,9 @@ to add the option `--strict`. This prevents `ect` from stripping metadata out of
 images. In rare cases, this metadata could affect how the image is displayed.
 If you did not create an image and cannot verify changes to it, avoid making
 changes to image metadata.
+
+---
+
+## Special Thanks
+
+ZAP is based on the original Stellarium project. Special thanks and credit to the Stellarium developers and contributors for their foundational work, resources, and inspiration.
