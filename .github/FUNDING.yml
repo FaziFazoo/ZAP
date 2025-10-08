@@ -1,3 +1,5 @@
 # These are supported funding model platforms
 
-open_collective: stellarium
+# No official funding platform for ZAP yet.
+# Uncomment and update below if you set up a funding page.
+# open_collective: zap
