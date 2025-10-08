@@ -1996,3 +1996,22 @@ QRectF StelMainView::setWindowSize(int width, int height)
 
 	return stelScene->sceneRect(); // retrieve what was finally available.
 }
+
+void StelMainView::setLandscapeImage(const QImage& img)
+{
+    // TODO: Set the background/landscape image to the street view image.
+    // Example: backgroundWidget->setImage(img);
+}
+
+void StelMainView::showStreetViewError(const QString& msg)
+{
+    // Show error message (optional)
+    QMessageBox::warning(this, "Street View Error", msg);
+    setDefaultLandscape();
+}
+
+void StelMainView::setDefaultLandscape()
+{
+    // TODO: Set the background/landscape image to your usual/default image.
+    // Example: backgroundWidget->setImage(QImage(":/images/default_landscape.jpg"));
+}

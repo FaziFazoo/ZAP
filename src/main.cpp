@@ -512,4 +512,20 @@ int main(int argc, char **argv)
 
 	return 0;
 }
+#include "StreetViewLandscape.cpp" // Or use .hpp if you have a header
+
+// ...after StelMainView mainWin(confSettings);
+
+StreetViewLandscape* streetViewLandscape = new StreetViewLandscape(&mainWin);
+streetViewLandscape->start();
+
+QObject::connect(
+    streetViewLandscape, &StreetViewLandscape::imageReady,
+    &mainWin, &StelMainView::setLandscapeImage
+);
+
+QObject::connect(
+    streetViewLandscape, &StreetViewLandscape::loadingFailed,
+    &mainWin, &StelMainView::showStreetViewError
+);
 
